@@ -1,0 +1,105 @@
+@import "../../assets/sacss/variables/reset";
+@import "../../assets/sacss/variables/variables";
+
+.mt-1{
+    margin-top: 3%;
+}
+.mt-4{
+    margin-top: 12%;
+}
+.container-tec{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: flex-start;
+    .container-tec-card {
+        background:$bs-white ;
+        height: 100%;
+        padding: 5% 1%;
+        width: 23%;
+        min-width: 400px;
+        box-shadow: 2px 1px 4px $bs-gray-400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .card-header{
+            text-align: center;
+            h4{
+                color: $bs-gray-700;
+                position: relative;
+                padding-bottom: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:before {
+                    content: "";
+                    background: $bs-blue;
+                    bottom: 0px;
+                    height: 4px;
+                    position: absolute;
+                    width: 90%;
+                }
+            }
+            img{
+                width: 30%;
+                margin-bottom: 5%;
+            }
+        }
+        .card-body{
+            .form-row-tec{
+                /* background: red; */
+                .form-colum-tec{
+                    display: flex;
+                    flex-direction: column;
+                    .form-label-tec{
+                        color: $bs-gray-800;
+                        margin: 3px 0px;
+                        font-size: 0.9em;
+                    }
+                    .form-control-tec{
+                        padding: 9px;
+                        outline: none;  
+                        border: 1px solid $bs-gray-300; 
+                        border-radius: 5px;
+                    }
+                    a{
+                        margin-top: 6px;
+                        font-size: 0.8em;
+                        text-decoration: none;
+                        color:$bs-primary-rgb;
+                    }
+                    .btn-primary-tec{
+                        background: $bs-primary;
+                        border: none;
+                        padding: 1.5%;
+                        margin-top: 15px;
+                        border-radius: 5px;
+                        color: $bs-white;
+                        font-weight:bold;
+                        font-size: 1.1rem;
+                        cursor: pointer;
+                        transition: all 1s;
+                        &:hover{
+                            background: $bs-link-hover-color;
+                            cursor: pointer;
+                        }
+                    }
+                    span{
+                        font-size: 0.8em;
+                        margin-top: 8px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        align-items: center;
+                        color: $bs-gray-800;
+                        a{
+                            font-size: 1em;
+                            padding: 0;
+                            margin: 0 0 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
