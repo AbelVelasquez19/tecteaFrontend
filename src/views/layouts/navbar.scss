@@ -1,0 +1,15 @@
+@import "../../assets/sacss/variables/reset";
+@import "../../assets/sacss/components/clases";
+.navbar{
+   background: #fff;
+   border-bottom: 0;
+   box-shadow: 0 0 2rem 0 rgba(33,37,41,.1); 
+   padding: 0.875rem 1.375rem;
+   color: rgba(0,0,0,0.65);
+   font-size: 0.925rem;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   position: relative;
+}

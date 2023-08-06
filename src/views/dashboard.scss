@@ -1,0 +1,12 @@
+@import "../assets/sacss/variables/reset";
+@import "../assets/sacss/variables/variables";
+
+.wrapper{
+    align-items: stretch;
+    background: $bs-body-bg;
+    display: flex;
+    width: 100%;
+}
+p{
+    background-color: #fff;
+}
