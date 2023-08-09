@@ -12,7 +12,7 @@
             <div class="sidebar-user">
                 <div class="sidebar-user-content">
                     <div class="sidebar-user-logo">
-                        <img class="me-1" src="../../assets/images/logo/avatar.jpg" alt="logo-tectea">
+                        <img class="me-1" src="../assets/images/logo/avatar.jpg" alt="logo-tectea">
                     </div>
                     <div class="sidebar-user-detalle ps-2">
                         <a href="#" class="sidebar-user-title dropdup-toggle-after">Abel Velasquez</a>
@@ -31,9 +31,10 @@
                     </a>
                     <ul class="sidebar-dropdown list-unstyled" style="display:block">
                        <li class="sidebar-item active">
-                            <a href="#" class="sidebar-link">
+                            <router-link :to="{name:'Person'}" class="sidebar-link">Reportes</router-link>
+                            <!-- <a href="#" class="sidebar-link">
                                 Reportes
-                            </a>
+                            </a> -->
                         </li> 
                        <li class="sidebar-item">
                             <a href="#" class="sidebar-link">

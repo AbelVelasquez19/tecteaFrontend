@@ -1,0 +1,63 @@
+@import "../assets/sacss/variables/reset";
+@import "../assets/sacss/components/clases";
+.footer{
+    background: #fff;
+    direction: ltr;
+    padding: 1rem 0.875rem;
+    display: block;
+   /*  position: absolute;
+    right: 0;
+    left: 15%;
+    bottom: 0; */
+    .container-fluid{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: calc(0.75rem * .5);
+        padding-right: calc(0.75rem * .5);
+        width: 100%;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: calc(24px * -.5);
+            margin-right: calc(24px * -.5);
+            margin-top: calc(0 * -1);
+            .col-6 {
+                flex: 0 0 auto;
+                width: 50%;
+                p{
+                    margin-bottom: 0 !important;
+                    .text-muted{
+                        color:rgba(73,80,87,.75);
+                        cursor: pointer;
+                        text-decoration: none;
+                        opacity: 0.9;
+                        strong{
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .list-inline{
+                    margin-bottom: 0;
+                    list-style: none;
+                    padding-left: 0;
+                    padding-top: 0;
+                    .list-inline-item{
+                        display: inline-block;
+                        .text-muted{
+                            opacity: 0.9;
+                            color:rgba(73,80,87,.75);
+                            text-decoration: none;
+                        }
+                    }
+                    .list-inline-item:not(:last-child) {
+                        margin-right: 0.5rem;
+                    }
+
+                }
+            }
+        }
+        .text-muted{
+            color:rgba(73,80,87,.75);
+        }
+    }
+}

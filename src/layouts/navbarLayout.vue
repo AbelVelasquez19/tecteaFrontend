@@ -15,7 +15,7 @@
             <ul class="navbar-nav navbar-align">
                 <li class="nav-item dropdown">
                     <a class="nav-icon dropdown-toggle" href="#">
-                        <img class="me-1" style="width: 100%;" src="../../assets/images/logo/avatar.jpg" alt="logo-tectea">
+                        <img class="me-1 avatar" style="width: 100%;" src="../assets/images/logo/avatar.jpg" alt="logo-tectea">
                     </a>
                 </li>
             </ul>

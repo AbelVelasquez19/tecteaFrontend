@@ -5,7 +5,12 @@
 .text-uppercase{
     text-transform: uppercase !important;
 }
-
+.text-start {
+    text-align: left!important;
+}
+.text-end {
+    text-align: right!important;
+}
 .me-0 {
     margin-right: 0!important
 }

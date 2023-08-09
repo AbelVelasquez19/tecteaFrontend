@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-  //import LoginView from "./views/login/LoginView.vue";
+  /* import DashboardView from "@/views/DashboardView.vue"; */
 </script>
 
 <style src="./app.scss" lang="scss"/>

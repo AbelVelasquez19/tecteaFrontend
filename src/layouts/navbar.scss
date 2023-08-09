@@ -1,0 +1,114 @@
+@import "../assets/sacss/variables/reset";
+@import "../assets/sacss/components/clases";
+.navbar{
+   background: #fff;
+   border-bottom: 0;
+   box-shadow: 0 0 2rem 0 rgba(33,37,41,.1); 
+   padding: 0.200rem 1.375rem;
+   color: rgba(0,0,0,0.65);
+   font-size: 0.925rem;
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   position: relative;
+   .sidebar-toggle{
+      cursor: pointer;
+      display: flex;
+      height: 26px;
+      width: 26px;
+      margin-right: 1rem;text-decoration: none;
+   }
+   form {
+      .input-group{
+         direction: ltr;
+         align-items: stretch;
+         display: flex;
+         flex-wrap: nowrap; 
+         position: relative;
+         width: 100%;
+         .form-control{
+            color: #495057;
+            background: #f3f6fa;
+            border: 0;
+            border-radius: 20px;
+            box-shadow: none;
+            display: block;
+            font-size: .875rem;
+            font-weight: 400;
+            line-height: 1.5;
+            height: calc(2.1875rem + 2px);
+            padding: 0.4rem 1rem;
+            flex: 1 1 auto;
+            min-width: 0;
+            position: relative;
+            direction: ltr;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            &:focus{
+               background: #f3f6fa;
+               box-shadow: none;
+               outline: 0;
+            }
+         }
+         .btn{
+            color:#6c757d;
+            background: #f3f6fa;
+            border: 0;
+            border-radius: 20px;
+            box-shadow: none;
+            height: calc(2.1875rem + 2px);
+            padding: 0.4rem 1rem;
+            position: relative;
+            z-index: 2;
+            cursor: pointer;
+            svg{
+               height: 20px;
+               width: 20px;
+               stroke-width: 2;
+               vertical-align: middle!important;
+               touch-action: none;
+            }
+         }
+      }
+   }
+   .navbar-collapse{
+      display: flex;
+      flex-basis: 100%;
+      align-items: center;
+      flex-grow: 1;
+      .navbar-nav{
+         margin-left: auto;
+         flex-direction: row;
+         direction: ltr;
+         padding: 0.5rem 0;
+         color: rgba(0,0,0,0.65);
+         display: flex;
+         flex-direction: column;
+         list-style: none;
+         margin-bottom: 0;
+         padding-left: 0;
+         .nav-item{
+            position: relative;
+            display: list-item;
+            text-align: -webkit-match-parent;
+           .nav-icon{
+               color: #6c757d;
+               display: block;
+               font-size: 1.5rem;
+               line-height: 1.4;
+               padding: 0.1rem 0.8rem;
+               transition: background .1s ease-in-out,color .1s ease-in-out;
+               .avatar{
+                  margin-bottom: -15px;
+                  margin-top: -15px;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 0.2rem;
+                  max-width: 100%;
+                  vertical-align: middle;
+               }
+           }
+         }
+      }
+   }
+}

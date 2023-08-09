@@ -6,6 +6,28 @@
     background: $bs-body-bg;
     display: flex;
     width: 100%;
+    .main{
+        background: #eceef4;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        min-width: 0;
+        overflow: hidden;
+        transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+        width: 100%;
+        .content{
+            direction: ltr;
+            flex: 1;
+            max-width: 100vw;
+            padding: 1rem 1.5rem 0.75rem;
+            background: red;
+            @media (min-width: 992px){
+                padding: 2rem 2rem 1.5rem
+            }
+        }
+    }
 }
 p{
     background-color: #fff;
